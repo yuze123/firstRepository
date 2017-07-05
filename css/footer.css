@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*--footer部分开始--*/
+.footer {
+    width: 100%;
+    background: #fcfcfc;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.footer-top-slogan li {
+    float: left;
+}
+.footer-top-slogan span {
+    display: block;
+    width: 66px;
+    height: 96px;
+    margin: 30px 66px 0 10px;
+    background: url(../images/footer-service.png) no-repeat;
+    font-size: 0;
+    text-indent: -100%;
+}
+.footer-top-slogan .footer-ic00 { background-position: -10px -9px; }
+.footer-top-slogan .footer-ic01 { background-position: -148px -9px; }
+.footer-top-slogan .footer-ic02 { background-position: -295px -9px; }
+.footer-top-slogan .footer-ic03 { background-position: -443px -9px; }
+.footer-top-slogan .footer-ic04 { background-position: -590px -9px; }
+.footer-top-slogan .footer-ic05 { background-position: -738px -9px; }
+.footer-top-slogan .footer-ic06 { background-position: -885px -9px; }
+
+.footer-top-product { line-height: 20px; margin: 30px 0 25px; border-top: 1px solid #e0e0e0; }
+.footer-top-product dl {
+    margin-top: 26px;
+    padding-left: 16px;
+    height: 147px;
+    width: 145px;
+    float: left;
+    /*height: 200px; /!*这里不能设置高度，否则会影响后面footer-bottom-links的布局*!/*/
+}
+.footer-top-product dt { font-weight: bold; font-size: 14px; height: 27px; }
+.footer-top-product dd { cursor: pointer; }
+.footer-top-product dd:hover { color: #f10180; }
+.footer-bottom { margin-top: 20px; text-align: center; }
+.footer-bottom-links { background: #d7237e; line-height: 30px; color: #FFF; }
+.footer-bottom-links a { padding:0 10px; color: #FFF; }
+.footer-bottom-message, .footer-bottom-message a { text-align: center; color: #999999; line-height: 24px; }
+.footer-bottom-message { padding-top: 16px; padding-bottom: 10px; }
+.footer-bottom-message a { cursor: pointer; }
+.footer-bottom-message a:hover { color: #f10180; }
+.footer-bottom-copyright a {
+    width: 105px;
+    height: 40px;
+    display: inline-block;
+    background: url(../images/footer.png) no-repeat 0 0;
+    margin-right: 10px;
+}
+.footer-bottom-copyright a.img2 { background-position: 0 -150px; }
+.footer-bottom-copyright a.img3 { background-position: 0 -200px; }
+.footer-bottom-copyright a.img4 { background-position: 0 -250px; }
+.footer-bottom-copyright a.img5 { background-position: 0 -300px; }
+.footer-bottom-copyright a.img6 { background-position: 0 -350px; }
+/*--footer部分结束--*/
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>唯品会-登录</title>
+    <link rel="shortcut icon" href="../favicon.ico"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/login.css"/>
+</head>
+<body>
+<!--logo部分开始-->
+<div class="logo w fc">
+    <a href="#" class="fl logo-left"><img src="../images/login-logo.png" alt=""/></a>
+    <a href="#" class="fr logo-right"><img src="../images/serve.png" alt=""/></a>
+</div>
+<!--logo部分结束-->
+<!--content部分开始-->
+<div class="content w">
+    <img src="../images/content.jpg" alt=""/>
+    <!--content右边部分开始-->
+    <div class="content-right">
+        <div class="logoin">
+            <a href="#" class="commonLogIn  " id="commonLogIn">普通登录</a>
+            <a href="#" class="phoneLogIn " id="phoneLogIn">手机动态密码登录</a>
+        </div>
+        <div class="massages1 fl" id="massages1">
+            <div class="phoneNum fl">
+
+                <input type="text" value="手机号" id="phoneNumber"/>
+                <b></b><span>|</span>
+                <s id="s1">输入错误</s>
+            </div>
+            <div class="authCode fl">
+                <input type="text " value="验证码" id="authCode"/>
+                <img src="../images/code.jpg" alt="" class="code"/>
+                <s id="s2">输入错误</s>
+            </div>
+            <div class="password fl">
+                <b class="lock"></b>
+                <span class="line">|</span>
+                <input type="text" value="动态密码" class="password1 fl" id="password"/>
+                <input type="button" value="获取手机动态密码" class="phonePassword fl"/>
+                <s id="s3">输入错误</s>
+            </div>
+        </div>
+        <div class="massages2 fl" id="massages2">
+            <input type="text" value="手机号/用户名/邮箱" id="phoneNumber2"/>
+            <s id="s4">输入错误</s>
+            <input type="text" value="密码" id="password2"/>
+            <s id="s5">输入错误</s>
+        </div>
+        <div class="logIn fl">
+            <a href="../index.html" class="logIn">登录</a>
+        </div>
+        <div class="user fl">
+            <input type="checkbox"/>&nbsp&nbsp
+            <span>记住用户名</span>
+            <a href="#">忘记密码？</a>&nbsp&nbsp
+            <b>|</b>&nbsp&nbsp
+            <a href="#" class=cr>免费注册</a>
+        </div>
+        <div class="friendlink fl">
+            <p>合作网站账号登陆：</p>
+
+            <div class="friendlinkImg">
+                <b class="b1"><a href="#"></a></b>
+                <b class="b2"><a href="#"></a></b>
+                <b class="b3"><a href="#"></a></b>
+                <b class="b4"><a href="#"></a></b>
+                <a href="#" class="more">更多</a>
+                <i></i>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    //获取相关元素
+    var commonLogIn = document.getElementById("commonLogIn");
+    var phoneLogIn = document.getElementById("phoneLogIn");
+    var massages1 = document.getElementById("massages1");
+    var massages2 = document.getElementById("massages2");
+    var phoneNumber = document.getElementById("phoneNumber");
+    var authCode = document.getElementById("authCode");
+    var password = document.getElementById("password");
+    var phoneNumber2 = document.getElementById("phoneNumber2");
+    var password2 = document.getElementById("password2");
+    var s1=document.getElementById("s1");
+    var s2=document.getElementById("s2");
+    var s3=document.getElementById("s3");
+    var s4=document.getElementById("s4");
+    var s5=document.getElementById("s5");
+    var phoneNumberzz=/(^13\d{9}$)|(^14\d{9}$)|(^18\d{9}$)/;
+    var authCodezz=/^\d{6}$/;
+    var passwordzz=/^[0-9a-zA-Z_$@]{6,20}$/;
+    var phoneNumber2zz=/^((13[0-9])|(17[0-9])|(15[^4,\D])|(18[0-9]))\d{8}$/||/^[\w\-\.]+\@[\w]+\.[\w]{2,4}$/||/^[a-zA-Z0-9_\-]{4,20}$/;
+    var password2zz=/^[0-9a-zA-Z_$@]{6,20}$/;
+//    var phoneNumber2zz=
+    //     tab 栏切换
+    commonLogIn.onclick = function () {
+        massages1.style.display = "none";
+        massages2.style.display = "block";
+        this.className = "commonLogIn";
+        phoneLogIn.className = "";
+        return false;
+    }
+    phoneLogIn.onclick = function () {
+        massages2.style.display = "none";
+        massages1.style.display = "block";
+        commonLogIn.className = "";
+        this.className = "commonLogIn";
+        return false;
+    }
+    //massages1中的input光标的切换
+    phoneNumber.onfocus = function () {
+        if (this.value == "手机号") {
+            this.value = "";
+
+        }
+    }
+    phoneNumber.onblur = function () {
+        if (this.value == "") {
+            this.value = "手机号";
+        }
+        if(!(phoneNumberzz.test(this.value))){
+            s1.style.display="block";
+        }else{
+            s1.style.display="none";
+        }
+    }
+    authCode.onfocus = function () {
+        if (this.value == "验证码") {
+            this.value = "";
+        }
+    }
+    authCode.onblur = function () {
+        if (this.value == "") {
+            this.value = "验证码";
+        }
+    }
+    password.onfocus = function () {
+        if (this.value == "动态密码") {
+            this.value = "";
+            this.type="password";
+        }
+    }
+    password.onblur = function () {
+        if (this.value == "") {
+            this.value = "动态密码";
+        }
+        if(!(passwordzz.test(this.value))){
+            s3.style.display="block";
+        }else{
+            s3.style.display="none";
+        }
+    }
+    //massages2中的input光标的切换
+    phoneNumber2.onfocus = function () {
+        if (this.value == "手机号/用户名/邮箱") {
+            this.value = "";
+        }
+    }
+    phoneNumber2.onblur = function () {
+        if (this.value == "") {
+            this.value = "手机号/用户名/邮箱";
+        }
+    }
+    password2.onfocus = function () {
+        if (this.value == "密码") {
+            this.value = "";
+            this.type="password";
+        }
+    }
+    password2.onblur = function () {
+        if (this.value == "") {
+            this.value = "密码";
+            this.type="text";
+        }
+        if(!(password2zz.test(this.value))){
+            s5.style.display="block";
+        }else{
+            s5.style.display="none";
+        }
+    }
+</script>
+

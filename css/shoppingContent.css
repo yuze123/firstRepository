@@ -1,0 +1,249 @@
+/*
+* @Author: TOSHIBA
+* @Date:   2017-03-14 19:13:40
+* @Last Modified by:   TOSHIBA
+* @Last Modified time: 2017-03-14 19:23:41
+<style>*/
+.ws {
+    margin: 0 auto;
+}
+
+.commodity-list {
+    width: 958px;
+    border: 1px solid #EDEDED;
+    margin-bottom: 52px;
+    /*height: 744px;*/
+}
+
+/*自营头部开始*/
+/*唯品自营  */
+.self-title {
+    position: relative;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #F9F9F9;
+    line-height: 38px;
+    border-bottom: 1px solid #EDEDED;
+}
+.self-title .little {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 38px;
+    background-color: #ed008c;
+}
+
+.self-title .self {
+    width: 418px;
+    height: 38px;
+
+    color: #f40;
+    text-align: left;
+    padding-left: 16px;
+
+}
+
+/*唯品自营 */
+
+/*单价*/
+.self-title .onePrice {
+    width: 148px;
+    height: 38px;
+
+}
+
+/*单价*/
+
+/*数量*/
+.self-title .number {
+    width: 152px;
+    height: 38px;
+}
+
+/*数量*/
+
+/*小计*/
+.self-title .sum {
+    width: 148px;
+    height: 38px;
+}
+
+/*小计*/
+
+/*操作*/
+.self-title .operation {
+    width: 62px;
+    height: 38px;
+}
+
+/*操作*/
+
+/*水果样式*/
+.fruit {
+    height: 116px;
+    margin: 0 15px;
+    /*background-color: pink;*/
+}
+
+.fruit ul li {
+    float: left;
+}
+
+.name {
+    height: 116px;
+    width: 409px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.smallImg {
+    margin-top: 9px;
+    float: left;
+}
+
+.bigImg {
+    display: none;
+    position: absolute;
+    top: 16px;
+    left: 112px;
+    border: 1px solid #EDEDED;
+    z-index: 1;
+}
+
+.miaoShu {
+    width: 302px;
+    float: left;
+    font-size: 15px;
+    height: 116px;
+    margin: 28px 0 0 16px;
+}
+
+h4 {
+    margin: 14px 0 8px;
+}
+
+.fruitPrice {
+    width: 148px;
+    height: 78px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.money {
+    font-weight: 600;
+}
+
+.fruitNum {
+    width: 152px;
+    height: 116px;
+}
+
+.box {
+    width: 96px;
+    margin: 38px 0 0 28px;
+    border: 1px solid #EDEDED;
+    text-align: center;
+
+}
+
+.box .left {
+    width: 28px;
+    cursor: pointer;
+    height: 28px;
+    opacity: 0.2;
+    background: url(../images/jianhao.png) no-repeat center center;
+}
+
+.box .middle {
+    width: 38px;
+    height: 28px;
+    border-left: 1px solid #EDEDED;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    border-right: 1px solid #EDEDED;
+
+}
+
+.box .right {
+    width: 28px;
+    cursor: pointer;
+    height: 28px;
+    background: url(../images/jiahao.png) no-repeat center center;
+}
+
+/*.disabled {*/
+    /*pointer-events: none;*/
+    /*cursor: default;*/
+    /*opacity: 0.6;*/
+/*}*/
+
+.fruitSum {
+    width: 148px;
+    height: 116px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ed008c;
+    line-height: 110px;
+    text-align: center;
+}
+
+.fruitOper {
+    position: relative;
+    width: 45px;
+    height: 70px;
+    padding: 46px 0 0 15px;
+    /*line-height: 116px;*/
+    text-align: center;
+}
+.delBox {
+    position: absolute;
+    display: none;
+    top: 64px;
+    right: -23px;
+    width: 208px;
+    height: 118px;
+    background:url(../images/delbox.png) no-repeat;
+    z-index: 1;
+}
+.btn1 {
+    color: #fff;
+    cursor: pointer;
+    width: 36px;
+    position: absolute;
+    bottom: 23px;
+    left: 57px;
+    /*display: none;*/
+    height: 20px;
+    border-radius: 4px;
+    line-height: 20px;
+    background-color: #ed008c;
+    text-align: center;
+}
+.btn2 {
+    width: 46px;
+    /*display: none;*/
+    cursor: pointer;
+    position: absolute;
+    bottom: 23px;
+    right: 58px;
+    height: 20px;
+    border-radius: 4px;
+    /*background-color:#ed008c;*/
+    border: 1px solid #C2C2C2;
+    line-height: 20px;
+    text-align: center;
+}
+
+.del {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/*</style>*/

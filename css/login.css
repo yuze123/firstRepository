@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/*logo部分开始*/
+
+.logo{
+    display:block;
+    /*height: 100px;*/
+    padding: 45px 0;
+}
+.logoin a{
+    float:left;
+    display:block;
+    height: 44px;
+    width: 168px;
+    text-align: center;
+    line-height:44px;
+}
+
+.logo-left{
+    display:block;
+    width: 311px;
+    height: 33px;
+}
+.logo-left img {
+    width: 311px;
+}
+.logo-right{
+    display:block;
+    width: 446px;
+    height: 33px;
+}
+/*logo部分结束*/
+/*content左边部分开始*/
+.content{
+    position:relative;
+    background: #fdfbfe;
+    /*width: 1000px;*/
+    /*background: url(../images/content.jpg) no-repeat;*/
+}
+.content > img {
+    height: 500px;
+}
+/*content左边部分结束*/
+/*content右边部分开始*/
+
+.content-right{
+    width: 339px;
+    height: 420px;
+    /*background: skyblue;*/
+    position:absolute;
+    top:66px;
+    right:0px;
+}
+
+.commonLogIn{
+    background:#E6E6E6;
+    border-radius:4px;
+}
+.massages1{
+    display:none;
+    height: 164px;
+    padding-top:36px;
+    position:relative;
+}
+.phoneNum{
+    width: 273px;
+    height: 34px;
+    border:1px solid #E6E6E6;
+    /*position:relative;*/
+    position:relative;
+    /*margin-top:37px;*/
+    margin-bottom:18px;
+}
+.phoneNum b{
+    display:inline-block;
+    width: 26px;
+    height: 24px;
+    background:url(../images/sprite.png) no-repeat -418px -55px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+
+.phoneNum input{
+    display: inline-block;
+    width: 226px;
+    height: 34px;
+    padding-left: 46px;
+
+    line-height: 34px;
+    color:#A49898;
+    border-radius:4px;
+}
+.phoneNum span{
+    position:absolute;
+    top:10px;
+    left:37px;
+}
+
+.authCode{
+    display:block;
+    height: 34px;
+    /*margin-top:18px;*/
+    margin-bottom: 18px;
+}
+.authCode input{
+    display:inline-block;
+    height: 34px;
+    width: 125px;
+    color:#A49898;
+   text-align: center;
+    border:1px solid #E6E6E6;
+    border-radius:4px;
+}
+.password{
+    height: 34px;
+    margin-bottom: 20px;
+    position:relative;
+}
+
+
+
+.password span{
+    position:absolute;
+    top:10px;
+    left:37px;
+
+}
+
+.password1{
+    display:inline-block;
+    height: 34px;
+    width: 80px;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    margin-right:10px;
+    padding-left:46px;
+    color:#A49898;
+    border-radius:4px;
+}
+.lock{
+    display:inline-block;
+    width: 36px;
+    height: 34px;
+    background:url(../images/sprite.png) no-repeat -471px -60px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.phonePassword{
+    display:inline-block;
+    width: 130px;
+    height: 34px;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    color:#FE7855;
+    border-radius:4px;
+}
+.logIn a{
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: #F10180;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    font-size:18px;
+    border-radius:4px;
+}
+.user{
+    display:block;
+    height: 16px;
+    /*background: pink;*/
+    width: 294px;
+    margin-top:18px;
+   margin-bottom:18px;
+
+}
+.user input{
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    border:1px solid #B8B8B8;
+
+}
+.user span{
+    display:inline-block;
+    width: 130px;
+}
+.user .cr{
+    color:#F10283;
+}
+.friendlink b{
+    display:inline-block;
+    width: 26px;
+    height: 26px;
+
+}
+.friendlink .b1{
+    background:url(../images/sprite.png) no-repeat -290px -56px;
+}.friendlink .b2{
+    background:url(../images/sprite.png) no-repeat -235px -56px;
+}.friendlink .b3{
+    background:url(../images/sprite.png) no-repeat -179px -56px;
+}.friendlink .b4{
+    background:url(../images/sprite.png) no-repeat -207px -56px;
+}
+.color{
+    color: black;
+   background:  #E6E6E6;
+}
+.friendlinkImg{
+    text-align: center;
+    margin-top:10px;
+    position:relative;
+}
+.friendlinkImg a{
+    display:inline-block;
+    width: 24px;
+    height: 26px;
+    cursor: pointer;
+}
+.friendlinkImg .more {
+    position:absolute;
+    top:5px;
+    left:128px;
+}
+.friendlink i{
+    display:inline-block;
+    height: 26px;
+    width: 12px;
+    background:url(../images/sprite.png) no-repeat -381px -66px;
+    position:absolute;
+    top:12px;
+    left:154px;
+}
+/*content右边部分结束*/
+/*massages2开始*/
+
+
+ .commonLogIn2{
+ background: #FFFFFF;
+
+}
+.phoneLogIn2{
+    background: #E6E6E6;
+
+}
+.massages2{
+    display:block;
+    width: 335px;
+    height: 140px;
+    padding-top:60px;
+    position:relative;
+
+}
+.massages2 input{
+    display:block;
+    height: 35px;
+    width: 260px;
+    border:1px solid #B2B2B4;
+    margin-bottom: 27px;
+    padding-left: 10px;
+    color:#989A99;
+}
+/*content2右边部分结束*/
+.content-right s{
+    display:none;
+    height: 18px;
+    width: 270px;
+
+}
+#s1{
+    position:absolute;
+    top:34px;
+    left:0px;
+    color: #FF0000;
+}
+#s2{
+    position:absolute;
+    top:124px;
+    left:0px;
+    color: #FF0000;
+}
+#s3{
+    position:absolute;
+    top:36px;
+    left:0px;
+    color: #FF0000;
+}
+#s4{
+    position:absolute;
+    top:98px;
+    left:0px;
+    color: #FF0000;
+}
+#s5{
+    position:absolute;
+    top:168px;
+    left:0px;
+    color: #FF0000;
+}

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>唯品会(一家专门做特卖的网站)</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <base target="_blank"/>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/public.js"></script>
+</head>
+<body>
+
+<!--顶部导航begin-->
+<div class="top-nav">
+    <div class="w">
+        <div class="top-nav-left line-width fl" id="top-nav-left">
+            <div class="top-nav-left-block " id="top-nav-left-block">
+                <span>广东</span>
+                <i class="zz-iconfont" id="icon">&#xe662;</i>
+            </div>
+            <div class="top-nav-left-none top-none" id="top-nav-left-none">
+                <div class="box">
+                    <i class="arr-border"></i>
+
+                    <p>请选择所在区域收货</p>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th>A</th>
+                            <td>
+                                <a href="#">安徽</a>
+                                <a href="#">澳门</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>B</th>
+                            <td><a href="#">北京</a></td>
+                        </tr>
+                        <tr>
+                            <th>C</th>
+                            <td><a href="#">重庆</a></td>
+                        </tr>
+                        <tr>
+                            <th>F</th>
+                            <td><a href="#">福建</a></td>
+                        </tr>
+                        <tr>
+                            <th>G</th>
+                            <td>
+                                <a href="#" style="background: #f1037f;color:#fff;">广东</a>
+                                <a href="#">广西</a>
+                                <a href="#">贵州</a>
+                                <a href="#">甘肃</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>H</th>
+                            <td>
+                                <a href="#">河北</a>
+                                <a href="#">河南</a>
+                                <a href="#">黑龙江</a>
+                                <a href="#">海南</a>
+                                <a href="#">湖南</a>
+                                <a href="#">湖北</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>J</th>
+                            <td>
+                                <a href="#">江苏</a>
+                                <a href="#">吉林</a>
+                                <a href="#">江西</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>L</th>
+                            <td>
+                                <a href="#">辽宁</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>N</th>
+                            <td>
+                                <a href="#">内蒙古</a>
+                                <a href="#">宁夏</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <ul class="top-nav-right fr">
+            <li class="line-width" style="padding:0 15px; ">
+                <a href="html/login.html" target="_self">请登录</a>
+
+                <div class="top-none login">
+                    <i class="arr-border"></i>
+
+                    <div class="box-top">
+                        <i class="login-tu"></i>
+                        <a href="#">你好！[请登录]</a>
+                    </div>
+                    <div class="box-bottom">
+                        <a href="javascript:;">我的收藏</a>
+                        <a href="javascript:;">我的订单</a>
+                        <a href="javascript:;">唯品钱包</a>
+                        <a href="javascript:;">我的优惠券</a>
+                        <a href="javascript:;">我的唯品币</a>
+                        <a href="javascript:;">唯品金融</a>
+                    </div>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li><a href="html/register.html" target="_self">注册</a></li>
+            <li class="line"></li>
+            <li><a href="javascript:;">我的订单</a></li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="javascript:;">我的收藏</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+
+                <div class="shoucang top-none">
+                    <i class="arr-border"></i>
+                    <a href="javascript:;">收藏的品牌(0)</a>
+                    <a href="javascript:;">收藏的商品(0)</a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="javascript:;">会员俱乐部</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+
+                <div class="top-none lucky">
+                    <i class="arr-border"></i>
+                    <a href="javascript:;">俱乐部首页</a>
+                    <a href="javascript:;">唯品币兑换</a>
+                    <a href="javascript:;">免费抽大奖</a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="javascript:;">客户服务</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+
+                <div class="top-none help">
+                    <i class="arr-border"></i>
+                    <a href="javascript:;">联系客服</a>
+                    <a href="javascript:;">帮助中心</a>
+                    <a href="javascript:;">服务中心</a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <i class="tel"></i>
+                    <a href="javascript:;">手机版</a>
+                </p>
+
+                <div class="ewm top-none">
+                    <i class="arr-border"></i>
+                    <a href="javascript:;">
+                        <img src="images/ewm.jpg" alt="" width="161" height="161"/>
+                    </a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="javascript:;">更多</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+
+                <div class="join top-none">
+                    <i class="arr-border"></i>
+
+                    <div class="join-top">
+                        <h5>合作专区</h5>
+                        <a href="javascript:;">联名卡申请</a>
+                        <a href="javascript:;">唯品卡</a>
+                        <a href="javascript:;">支付专区</a>
+                    </div>
+                    <div>
+                        <h5>关于我们</h5>
+                        <a href="javascript:;">Sell on vip</a>
+                        <a href="javascript:;">品牌招商</a>
+                        <a href="javascript:;">官方博客</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--顶部导航END-->
+<!--logo部分begin-->
+
+<div class="top-logo w">
+    <a href="javascript:;" title="唯品会" class="logo">唯品会</a>
+
+    <div class="icon">
+        <a href="javascript:;" class="icon1"></a>
+        <a href="javascript:;" class="icon2"></a>
+        <a href="javascript:;" class="icon3"></a>
+    </div>
+
+    <div class="top-logo-buy">
+        <div class="top-logo-buy-blcok">
+                <span class="number">
+                    <b>4</b>
+                </span>
+            <i class="car"></i>
+            <a href="html/shoppingCart.html" target="_self">我的购物袋</a>
+        </div>
+        <div class="top-logo-buy-none">
+
+        </div>
+    </div>
+</div>
+<!--logo部分END-->
+<!--主要导航部分begin-->
+
+<div class="main-nav">
+    <div class="w">
+        <ul>
+            <li><a href="javascript:;" class="bgc">首页</a></li>
+            <li><a href="javascript:;" class="bgc">唯品国际</a></li>
+            <li><a href="javascript:;" class="bgc">母婴</a></li>
+            <li><a href="html/furniture.html" target="_self" class="bgc">家居家电</a></li>
+            <li><a href="javascript:;" class="bgc">男士</a></li>
+            <li><a href="javascript:;" class="bgc">美妆</a></li>
+            <li><a href="javascript:;" class="bgc">生活</a></li>
+            <li><a href="javascript:;" class="bgc">金融</a></li>
+            <li class="very-more">
+                <a href="#" class="more bgc">更多<i class="zz-iconfont">&#xe662;</i></a>
+
+                <div class="very-more-box">
+                    <div class="very-more-box-one">
+                        <a href="#">
+                            <img src="images/small1.jpg" alt=""/>
+
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p>女装</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-two">
+                        <a href="#">
+                            <img src="images/small2.jpg" alt=""/>
+
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p>鞋包</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-three">
+                        <a href="#">
+                            <img src="images/small3.jpg" alt=""/>
+
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p>配饰</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-four">
+                        <a href="#">
+                            <img src="images/small4.jpg" alt=""/>
+
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p>运动</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-five">
+                        <a href="#">
+                            <img src="images/small5.jpg" alt=""/>
+
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p>爱丽舍</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="notice">
+                <a href="javascript:;" class="bgc"><img src="images/2.png" alt=""/>预告</a>
+            </li>
+            <li class="classify">
+                <a href="javascript:;" class="bgc"><img src="images/1.png" alt=""/>分类</a></li>
+        </ul>
+    </div>
+</div>
+<!--主要导航部分END-->
+<!--中间banner部分开始-->
+
+<div class="banner-big">
+    <div class="main-banner">
+        <div class="main-hide">
+            <ul class="lbt">
+                <li><a href="#"><img src="images/banner1.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="images/banner2.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="images/banner3.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="images/banner4.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="images/banner5.jpg" alt=""/></a></li>
+            </ul>
+            <div class="square">
+                <ul>
+                    <li><i class="line"></i>专属回归礼</li>
+                    <li><i class="line"></i>约炮节 最高满298减60</li>
+                    <li><i class="line"></i>青春俏佳节 最高满199减100</li>
+                    <li><i class="line"></i>BURRERRY女装 5折起</li>
+                    <li></i>周大福 全场8.8折封顶</li>
+                </ul>
+                <div class="bottom-line"></div>
+            </div>
+
+            <div class="arr">
+                <span class="left"><</span>
+                <span class="right">></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中间banner部分结束-->
+
+<div class="content w">
+    <!-- 时钟倒计时部分开始-->
+    <div class="clock">
+        <img src="images/today_DDp.png" class="w" alt=""/>
+    </div>
+    <!--时钟倒计时部分结束-->
+    <!--精选部分开始-->
+    <div class="jingxuan fc">
+        <div class="jx">
+            <div class="jx1 fl">
+                <div class="mask">
+                    <img src="images/GU.jpg" width="490" height="300" alt=""/>
+                    <img src="images/GUU.png" alt="" style="position: absolute; bottom: 22px;left: 85px"/>
+                </div>
+                <div class="cont">
+                    <div class="cont-t">
+                        <a href="#">
+                            <img src="images/G1.jpg" alt=""/>
+                            <img class="c1" src="images/G2.jpg" alt=""/>
+                            <img src="images/G3.jpg" alt=""/>
+
+                            <p>￥1788</p>
+
+                            <p class="c2">￥1599</p>
+
+                            <p>￥2388</p>
+                        </a>
+                    </div>
+                    <div class="cont-b">
+                        <img src="images/primary1.png" alt=""/>
+                        <a href="#" class="brand"><span class="iconfont">&#xe502;</span>&nbsp;收藏品牌</a>
+                        <a href="#" class="enter">进入专场</a>
+                    </div>
+                </div>
+            </div>
+            <div class="jx1 fr">
+                <div class="mask">
+                    <img src="images/MO.jpg" width="490" height="300" alt=""/>
+                    <img src="images/MOO.png" alt="" style="position: absolute; bottom: 22px;left: 85px"/>
+                </div>
+                <div class="cont">
+                    <div class="cont-t">
+                        <a href="#">
+                            <img src="images/MO1.jpg" alt=""/>
+                            <img class="c1" src="images/MO2.jpg" alt=""/>
+                            <img src="images/MO3.jpg" alt=""/>
+
+                            <p>￥689</p>
+
+                            <p class="c2">￥399</p>
+
+                            <p>￥599</p>
+                        </a>
+                    </div>
+                    <div class="cont-b">
+                        <img src="images/primary2.png" alt=""/>
+                        <a href="#" class="brand"><span class="iconfont">&#xe502;</span>&nbsp;收藏品牌</a>
+                        <a href="#" class="enter">进入专场</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jx">
+            <div class="jx1 fl">
+                <div class="mask">
+                    <img src="images/NI.jpg" width="490" height="300" alt=""/>
+                    <img src="images/NII.png" alt="" style="position: absolute; bottom: 22px;left: 85px"/>
+                </div>
+                <div class="cont">
+                    <div class="cont-t">
+                        <a href="html/detail.html" target="_blank">
+                            <img src="images/NI1.jpg" alt=""/>
+                            <img class="c1" src="images/NI2.jpg" alt=""/>
+                            <img src="images/NI3.jpg" alt=""/>
+
+                            <p>￥399</p>
+
+                            <p class="c2">￥399</p>
+
+                            <p>￥499</p>
+                        </a>
+                    </div>
+                    <div class="cont-b">
+                        <img src="images/primary3.png" alt=""/>
+                        <a href="#" class="brand"><span class="iconfont">&#xe502;</span>&nbsp;收藏品牌</a>
+                        <a href="#" class="enter">进入专场</a>
+                    </div>
+                </div>
+            </div>
+            <div class="jx1 fr">
+                <div class="mask">
+                    <img src="images/GI.jpg" width="490" height="300" alt=""/>
+                    <img src="images/GII.png" alt="" style="position: absolute; bottom: 22px;left: 85px"/>
+                </div>
+                <div class="cont">
+                    <div class="cont-t">
+                        <a href="#">
+                            <img src="images/GI1.jpg" alt=""/>
+                            <img class="c1" src="images/GI2.jpg" alt=""/>
+                            <img src="images/GI3.jpg" alt=""/>
+
+                            <p>￥689</p>
+
+                            <p class="c2">￥399</p>
+
+                            <p>￥599</p>
+                        </a>
+                    </div>
+                    <div class="cont-b">
+                        <img src="images/primary4.png" alt=""/>
+                        <a href="#" class="brand"><span class="iconfont">&#xe502;</span>&nbsp;收藏品牌</a>
+                        <a href="#" class="enter">进入专场</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jx">
+            <div class="jx1 fl">
+                <div class="mask">
+                    <img src="images/GUE.jpg" width="490" height="300" alt=""/>
+                    <img src="images/GUES.png" alt="" style="position: absolute; bottom: 22px;left: 85px"/>
+                </div>
+                <div class="cont">
+                    <div class="cont-t">
+                        <a href="#">
+                            <img src="images/GU1.jpg" alt=""/>
+                            <img class="c1" src="images/GU2.jpg" alt=""/>
+                            <img src="images/GU3.jpg" alt=""/>
+
+                            <p>￥399</p>
+
+                            <p class="c2">￥399</p>
+
+                            <p>￥499</p>
+                        </a>
+                    </div>
+                    <div class="cont-b">
+                        <img src="images/primary5.png" alt=""/>
+                        <a href="#" class="brand"><span class="iconfont">&#xe502;</span>&nbsp;收藏品牌</a>
+                        <a href="#" class="enter">进入专场</a>
+                    </div>
+                </div>
+            </div>
+            <div class="jx1 fr">
+                <div class="mask">
+                    <img src="images/MA.jpg" width="490" height="300" alt=""/>
+                    <img src="images/MAA.png" alt="" style="position: absolute; bottom: 22px;left: 85px"/>
+                </div>
+                <div class="cont">
+                    <div class="cont-t">
+                        <a href="#">
+                            <img src="images/MA1.jpg" alt=""/>
+                            <img class="c1" src="images/MA2.jpg" alt=""/>
+                            <img src="images/MA3.jpg" alt=""/>
+
+                            <p>￥689</p>
+
+                            <p class="c2">￥399</p>
+
+                            <p>￥599</p>
+                        </a>
+                    </div>
+                    <div class="cont-b">
+                        <img src="images/primary6.png" alt=""/>
+                        <a href="#" class="brand"><span class="iconfont">&#xe502;</span>&nbsp;收藏品牌</a>
+                        <a href="#" class="enter">进入专场</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--精选部分结束-->
+    <!--女装部分开始-->
+    <div class="nvzhuang fc">
+        <div class="nz-t fc">
+            <img class="fl" src="images/woman.png" alt=""/>
+            <a class="fr" href="#">全部女装品牌 <span class="iconfont">&#xe609;</span></a>
+        </div>
+        <div class="nz-b">
+            <div class="nz-b1 fl toBiger">
+                <a href="#">
+                    <img src="images/女装A1.jpg" width="490" height="235" class="toLightup"/>
+
+                    <p class="fl">茜舞女装专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩2天</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 跨专场，满400减40，上不封顶</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toBiger">
+                <a href="#">
+                    <img src="images/女装A2.jpg" width="490" height="235" class="toLightup"/>
+
+                    <p class="fl"><b>1.4</b> 折起 恩赏INSUN女装专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩24时</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fl toBiger">
+                <a href="#">
+                    <img src="images/女装A3.jpg" width="490" height="235" class="toLightup"/>
+
+                    <p class="fl"><b>1.2</b> 折起 苏醒的乐园女装专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩17天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toBiger">
+                <a href="#">
+                    <img src="images/女装A4.jpg" width="490" height="235" class="toLightup"/>
+
+                    <p class="fl">LETDIOSTO女装专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩1分</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 购满2件即想6.5折</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fl toBiger">
+                <a href="#">
+                    <img src="images/女装A5.jpg" width="490" height="235" class="toLightup"/>
+
+                    <p class="fl"><b>2.7</b> 折起 ZIM MUR女装专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩6天</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> ZIM 女装全场买四免一</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toBiger">
+                <a href="#">
+                    <img src="images/女装A6.jpg" width="490" height="235" class="toLightup"/>
+
+                    <p class="fl"><b>1.4</b> 折起 韩都衣舍HSTYLE女装专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩2天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--女装部分结束-->
+    <!--鞋包部分开始-->
+    <div class="nvzhuang fc">
+        <div class="nz-t fc">
+            <img class="fl" src="images/shoe.png" alt=""/>
+            <a class="fr" href="#">全部鞋包品牌 <span class="iconfont">&#xe609;</span></a>
+        </div>
+        <div class="nz-b">
+            <div class="nz-b1 fl toLeft toLightup">
+                <a href="#">
+                    <img src="images/鞋1.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>1.3</b> 折起 香阁儿XANGIRL女鞋专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩2天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toRight toLightup">
+                <a href="#">
+                    <img src="images/鞋2.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>0.7</b> 折起 古奇天伦Guciheaven女鞋专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩3天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fl toLeft toLightup">
+                <a href="#">
+                    <img src="images/鞋3.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>￥3.1</b> 折起 玖熙NINE WEST鞋包混合专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩17天</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 满699减80，满1199减150，满1999减300</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toRight toLightup">
+                <a href="#">
+                    <img src="images/鞋4.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>￥1.4</b> 折起 coup de foudre女鞋专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩20小时</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 满498减80，上不封顶</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fl toLeft toLightup">
+                <a href="#">
+                    <img src="images/鞋5.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>1.7</b> 折起 梦特骄 MONTEGUT男女包混合专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩20小时</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 购物即享7折优惠</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toRight toLightup">
+                <a href="#">
+                    <img src="images/鞋6.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>299</b> 封顶 Steve Maddem女鞋清仓专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩3天</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 购物满499减50，899减100</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--鞋包部分开始-->
+    <!--男士部分开始-->
+    <div class="nvzhuang fc">
+        <div class="nz-t fc">
+            <img class="fl" src="images/men%20(1).png" alt=""/>
+            <a class="fr" href="#">全部男士品牌 <span class="iconfont">&#xe609;</span></a>
+        </div>
+        <div class="nz-b">
+            <div class="nz-b1 fl toUp toLightup">
+                <a href="#">
+                    <img src="images/男1.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>7.1</b> 折起 苹果APPLE数码专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩3天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toUp toLightup">
+                <a href="#">
+                    <img src="images/男2.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>4.5</b> 折起 NIKE运动新品男士专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩24时</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 满498减80，上不封顶</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fl toUp toLightup">
+                <a href="#">
+                    <img src="images/男3.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>6.1</b> 折起 苹果APPLE套餐全系列专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩3天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toUp toLightup">
+                <a href="#">
+                    <img src="images/男4.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>9.4</b> 折起 美图Meitu手机专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩3天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fl toUp toLightup">
+                <a href="#">
+                    <img src="images/男5.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>1069</b> 元起 华为手机专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩3天</span>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+            <div class="nz-b1 fr toUp toLightup">
+                <a href="#">
+                    <img src="images/男6.jpg" width="490" height="235"/>
+
+                    <p class="fl"><b>5</b> 折起 New Balance潮流运动鞋专场</p>
+                    <span class="fr"><i class="iconfont">&#xe6ad;</i> 剩2天</span>
+
+                    <div class="shade"></div>
+                    <div class="shade-cont"><span><i></i></span> 满498减80，上不封顶</div>
+                    <a class="slection" href="#"><i class="iconfont">&#xe502;</i>收藏品牌</a>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--男士部分开始-->
+    <!--侧边楼层部分开始-->
+    <div class="sidefloor">
+        <ul id="sidefloor">
+            <li class="current"><span class="iconfont">&#xe60f;</span>&nbsp;精选</li>
+            <li><span class="iconfont">&#xe62b;</span>&nbsp;女装</li>
+            <li><span class="iconfont">&#xe62e;</span>&nbsp;鞋包</li>
+            <li><span class="iconfont">&#xe62a;</span>&nbsp;男士</li>
+        </ul>
+    </div>
+    <!--侧边楼层部分结束-->
+    <div class="blank1"></div>
+
+</div>
+<!--侧边栏部分开始-->
+<div class="sideBar" id="sideBar">
+    <ul>
+        <li class="li1" id="li1"><i class="iconfont" style="display: block;font-size: 18px">&#xe66b;</i>
+
+            <div class="hide1" id="hide1">
+                <div class="hide1-t">
+                    <img src="images/cute.jpg" alt=""/>
+
+                    <p>您好！请<a href="#">登录</a> | <a href="#">注册</a></p>
+                    <span>x</span>
+                </div>
+                <div class="hide1-m">
+                    <div class="hide1-m1 fl">
+                        <i class="iconfont">&#xe657;</i>
+
+                        <p>我的订单</p>
+                    </div>
+                    <div class="hide1-m2 fr">
+                        <i class="iconfont">&#xe619;</i>
+
+                        <p>我的订单</p>
+                    </div>
+
+                </div>
+                <div class="hide1-b">
+                    <b class="fr">会员俱乐部</b>
+                </div>
+            </div>
+            账号
+        </li>
+        <li class="li2" id="li2">
+            <i class="iconfont" style="display: block;font-size: 18px">
+                &#xe617;</i>购<br/>物<br/>袋<br/><b class="zero">&nbsp;4&nbsp;</b>
+        </li>
+        <li class="li3" id="li3">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe625;</i>
+
+            <div class="hide2">我的优惠券</div>
+        </li>
+        <li class="li3" id="li4">
+            <div class="hide2">我收藏的品牌</div>
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe502;</i>
+        </li>
+        <li class="li3" id="li5">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe605;</i>
+
+            <div class="hide2">我收藏的商品</div>
+        </li>
+        <li class="li3" id="li6">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe6d2;</i>
+
+            <div class="hide2">我的足迹</div>
+        </li>
+        <li class="li4" id="li7">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe603;</i>
+
+            <div class="hide2">会员反馈</div>
+        </li>
+        <li class="li5" id="li8">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe66c;</i>
+
+            <div class="hide2">返回顶部</div>
+        </li>
+    </ul>
+</div>
+<!--侧边栏部分结束-->
+
+<!--底部动画开始-->
+<div class="footer-move">
+    <div class="pht1" id="pht1">
+        <img src="images/footer_slide1.png" alt=""/>
+    </div>
+    <div class="pht2" id="pht2">
+        <div class="bj"></div>
+        <div class="bj-1-pht">
+            <img src="images/footer_slide2.png" alt=""/>
+        </div>
+        <div class="erweima">
+            <div class="erweima-left" style="float: left">
+                <p>手机快速扫描下载</p>
+                <div><img src="images/footer_slide3.png" alt="" class="ma-img"/>
+                    <img src="images/footer_slide4.png" alt="" class="ma-tubiao"/>
+                </div>
+            </div>
+            <div class="erweima-right" style="float: right">
+                <p>关注微信公众号</p>
+                <div><img src="images/footer_slide3.png" alt="" class="ma-img"/>
+                    <img src="images/footer_slide4.png" alt="" class="ma-tubiao"/>
+                </div>
+            </div>
+        </div>
+        <span>x</span>
+    </div>
+</div>
+<!--底部动画结束-->
+<iframe src="html/footer.html" scrolling="no" frameborder="0" width="100%" height="527px"></iframe>
+</body>
+</html>
+<script src="js/index_top.js"></script>
+<script src="js/index_main.js"></script>
+<script src="js/sidebar.js"></script>

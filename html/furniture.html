@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>唯品会-家居家电</title>
+    <link rel="shortcut icon" href="../favicon.ico"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/furniture.css"/>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+<div class="top-nav" id="top-nav">
+    <div class="w">
+        <div class="top-nav-left line-width fl" id="top-nav-left">
+            <div class="top-nav-left-block "  id="top-nav-left-block">
+                <span>广东</span>
+                <i class="zz-iconfont" id="icon">&#xe662;</i>
+            </div>
+            <div class="top-nav-left-none top-none" id="top-nav-left-none">
+                <div class="box">
+                    <i class="arr-border"></i>
+                    <p>请选择所在区域收货</p>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th>A</th>
+                            <td>
+                                <a href="#">安徽</a>
+                                <a href="#">澳门</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>B</th>
+                            <td><a href="#">北京</a></td>
+                        </tr>
+                        <tr>
+                            <th>C</th>
+                            <td><a href="#">重庆</a></td>
+                        </tr>
+                        <tr>
+                            <th>F</th>
+                            <td><a href="#">福建</a></td>
+                        </tr>
+                        <tr>
+                            <th>G</th>
+                            <td>
+                                <a href="#" style="background: #f1037f;color:#fff;">广东</a>
+                                <a href="#">广西</a>
+                                <a href="#">贵州</a>
+                                <a href="#">甘肃</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>H</th>
+                            <td>
+                                <a href="#">河北</a>
+                                <a href="#">河南</a>
+                                <a href="#">黑龙江</a>
+                                <a href="#">海南</a>
+                                <a href="#">湖南</a>
+                                <a href="#">湖北</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>J</th>
+                            <td>
+                                <a href="#">江苏</a>
+                                <a href="#">吉林</a>
+                                <a href="#">江西</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>L</th>
+                            <td>
+                                <a href="#">辽宁</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>N</th>
+                            <td>
+                                <a href="#">内蒙古</a>
+                                <a href="#">宁夏</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <ul class="top-nav-right fr">
+            <li class="line-width" style="padding:0 15px; ">
+                <a href="login.html">请登录</a>
+                <div class="top-none login">
+                    <i class="arr-border"></i>
+                    <div class="box-top">
+                        <i class="login-tu"></i>
+                        <a href="#">你好！[请登录]</a>
+                    </div>
+                    <div class="box-bottom">
+                        <a href="#">我的收藏</a>
+                        <a href="#">我的订单</a>
+                        <a href="#">唯品钱包</a>
+                        <a href="#">我的优惠券</a>
+                        <a href="#">我的唯品币</a>
+                        <a href="#">唯品金融</a>
+                    </div>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li><a href="register.html">注册</a></li>
+            <li class="line"></li>
+            <li><a href="#">我的订单</a></li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="#">我的收藏</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+                <div class="shoucang top-none">
+                    <i class="arr-border"></i>
+                    <a href="#">收藏的品牌(0)</a>
+                    <a href="#">收藏的商品(0)</a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="#">会员俱乐部</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+                <div class="top-none lucky">
+                    <i class="arr-border"></i>
+                    <a href="#">俱乐部首页</a>
+                    <a href="#">唯品币兑换</a>
+                    <a href="#">免费抽大奖</a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="#">客户服务</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+                <div class="top-none help">
+                    <i class="arr-border"></i>
+                    <a href="#">联系客服</a>
+                    <a href="#">帮助中心</a>
+                    <a href="#">服务中心</a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <i class="tel"></i>
+                    <a href="#">手机版</a>
+                </p>
+                <div class="ewm top-none">
+                    <i class="arr-border"></i>
+                    <a href="#">
+                        <img src="../images/ewm.jpg" alt="" width="161" height="161"/>
+                    </a>
+                </div>
+            </li>
+            <li class="line"></li>
+            <li class="line-width">
+                <p>
+                    <a href="#">更多</a>
+                    <i class="zz-iconfont">&#xe662;</i>
+                </p>
+                <div class="join top-none">
+                    <i class="arr-border"></i>
+                    <div class="join-top">
+                        <h5>合作专区</h5>
+                        <a href="#">联名卡申请</a>
+                        <a href="#">唯品卡</a>
+                        <a href="#">支付专区</a>
+                    </div>
+                    <div>
+                        <h5>关于我们</h5>
+                        <a href="#">Sell on vip</a>
+                        <a href="#">品牌招商</a>
+                        <a href="#">官方博客</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--顶部导航END-->
+<!--logo部分begin-->
+
+<div class="top-logo w">
+    <a href="../index.html" title="唯品会" class="logo">唯品会</a>
+    <div class="icon">
+        <a href="javascript:;" class="icon1"></a>
+        <a href="javascript:;" class="icon2"></a>
+        <a href="javascript:;" class="icon3"></a>
+    </div>
+
+    <div class="top-logo-buy">
+        <div class="top-logo-buy-blcok">
+                <span class="number">
+                    <b>4</b>
+                </span>
+            <i class="car"></i>
+            <a href="shoppingCart.html">我的购物袋</a>
+        </div>
+        <div class="top-logo-buy-none">
+
+        </div>
+    </div>
+</div>
+<!--logo部分END-->
+<!--主要导航部分begin-->
+
+<div class="main-nav">
+    <div class="w">
+        <ul>
+            <li><a href="../index.html" class="bgc">首页</a></li>
+            <li><a href="#" class="bgc">唯品国际</a></li>
+            <li><a href="#" class="bgc">母婴</a></li>
+            <li><a href="#" class="current">家居家电</a></li>
+            <li><a href="#" class="bgc">男士</a></li>
+            <li><a href="#" class="bgc">美妆</a></li>
+            <li><a href="#" class="bgc">生活</a></li>
+            <li><a href="#" class="bgc">金融</a></li>
+            <li class="very-more">
+                <a href="#" class="more bgc">更多<i class="zz-iconfont">&#xe662;</i></a>
+                <div class="very-more-box">
+                    <div class="very-more-box-one">
+                        <a href="#">
+                            <img src="../images/small1.jpg" alt=""/>
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-two">
+                        <a href="#">
+                            <img src="../images/small2.jpg" alt=""/>
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-three">
+                        <a href="#">
+                            <img src="../images/small3.jpg" alt=""/>
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-four">
+                        <a href="#">
+                            <img src="../images/small4.jpg" alt=""/>
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="very-more-box-five">
+                        <a href="#">
+                            <img src="../images/small5.jpg" alt=""/>
+                            <div class="shadow"></div>
+                            <div class="show-down">
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="notice">
+                <a href="#" class="bgc"><img src="../images/2.png" alt=""/>预告</a>
+            </li>
+            <li class="classify">
+                <a href="#" class="bgc"><img src="../images/1.png" alt=""/>分类</a></li>
+        </ul>
+    </div>
+</div>
+<!--主要导航部分END-->
+
+<div class="banner">
+    <a href="#"></a>
+</div>
+<!--banner e-->
+<!--rm  b-->
+<div class="rm w" id="rm">
+    <span class="remen">热门</span>
+    <span class="fenlie">分类</span>
+
+    <div class="line l"></div>
+    <div class="line r"></div>
+    <p class="hot">HOT CATEGORY</p>
+</div>
+<!--rm  e-->
+<!--BOX b-->
+<div class="box w">
+    <div class="left fl" id="leftBox">
+        <ul>
+            <li class="top-b">家纺布艺</li>
+            <li class="top-b">家具百货</li>
+            <li class="top-b">小家电</li>
+            <li class="top-b">3C数码</li>
+            <li class="top-b">大家电</li>
+            <li>家具家装</li>
+        </ul>
+    </div>
+    <div class="right fr" id="rightBox">
+        <ul>
+            <li class="a"></li>
+            <li class="b"></li>
+            <li class="c"></li>
+            <li class="d"></li>
+            <li class="e"></li>
+            <li class="f"></li>
+        </ul>
+    </div>
+</div>
+<!--BOX e-->
+<!--<iframe src="html/footer.html" scrolling="no" frameborder="0" width="100%" height="527px"></iframe>-->
+<!--muma b-->
+<div class="gexing w"></div>
+<div class="wrap w" id="wrap">
+    <div class="slide" id="slide">
+        <ul>`1
+            <li><a href="#"><img src="../images/day1.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="../images/life1.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="../images/style1.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="../images/kitchen1.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="../images/romantic1.jpg" alt=""/></a></li>
+        </ul>
+        <div class="arrow" id="arrow">
+            <a href="javascript:;" class="prev fl"></a>
+            <a href="javascript:;" class="next fr"></a>
+        </div>
+    </div>
+</div>
+<!--muma e-->
+<!-- 再来一波 b-->
+<div class="zlyb w">
+    <div class="zailai"></div>
+    <div class="zlyb-xtm">
+        <span class="zlyb-xintemai">新特卖</span>
+        <span class="zlyb-shangxin">每日早十晚八上新</span>
+
+        <div class="line l"></div>
+        <div class="line r"></div>
+    </div>
+    <div class="fc">
+        <ul>
+            <li class="lis">
+                <img src="../images/li1.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li2.jpg" alt=""/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li3.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li4.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li5.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li6.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li7.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li8.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li1.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+            <li class="lis ">
+                <img src="../images/li1.jpg" alt="" width="490" height="235"/>
+
+                <div class="tm">
+                <span class="logo">
+                    <i></i>
+                </span>
+                    <span class="fengding">满498减100，上不封顶</span>
+                </div>
+                <div class="li-bot">
+                    <span class="num">1.5</span>
+                    <span class="zhe">折起</span>
+                    <span class="title">九阳电器专场</span>
+                    <a href="#"><span class="sharpKill">立即抢购</span></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="topFix" id="topFix">
+    <div class="jujia"></div>
+    <div class="topLis">
+        <ul>
+            <a href="#">TOP</a>
+            <a href="#">个性分类</a>
+            <a href="#">再来一波</a>
+            <a href="#">床上用品</a>
+            <a href="#">个人护理</a>
+            <a href="#">家具用品</a>
+            <a href="#">数码电子</a>
+            <a href="#">健在家装</a>
+            <a href="#">大家电</a>
+        </ul>
+    </div>
+</div>
+<!--再来一波 e-->
+<div class="sideBar" id="sideBar">
+    <ul>
+        <li class="li1" id="li1"><i class="iconfont" style="display: block;font-size: 18px">&#xe66b;</i>
+            <div class="hide1" id="hide1">
+                <div class="hide1-t">
+                    <img src="../images/cute.jpg" alt=""/>
+
+                    <p>您好！请<a href="#">登录</a> | <a href="#">注册</a></p>
+                    <span>x</span>
+                </div>
+                <div class="hide1-m">
+                    <div class="hide1-m1 fl">
+                        <i class="iconfont">&#xe657;</i>
+
+                        <p>我的订单</p>
+                    </div>
+                    <div class="hide1-m2 fr">
+                        <i class="iconfont">&#xe619;</i>
+
+                        <p>我的订单</p>
+                    </div>
+
+                </div>
+                <div class="hide1-b">
+                    <b class="fr">会员俱乐部</b>
+                </div>
+            </div>
+            账号
+        </li>
+        <li class="li2" id="li2">
+            <i class="iconfont" style="display: block;font-size: 18px">
+                &#xe617;</i>购<br/>物<br/>袋<br/><b class="zero">&nbsp;4&nbsp;</b>
+        </li>
+        <li class="li3" id="li3">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe625;</i>
+            <div class="hide2">我的优惠券</div>
+        </li>
+        <li class="li3" id="li4">
+            <div class="hide2">我收藏的品牌</div>
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe502;</i>
+        </li>
+        <li class="li3" id="li5">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe605;</i>
+            <div class="hide2">我收藏的商品</div>
+        </li>
+        <li class="li3" id="li6">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe6d2;</i>
+            <div class="hide2">我的足迹</div>
+        </li>
+        <li class="li4" id="li7">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe603;</i>
+            <div class="hide2">会员反馈</div>
+        </li>
+        <li class="li5" id="li8">
+            <i class="iconfont" style="display: block;font-size: 18px">&#xe66c;</i>
+            <div class="hide2">返回顶部</div>
+        </li>
+    </ul>
+</div>
+<iframe src="footer.html" scrolling="no" frameborder="0" width="100%" height="527px"></iframe>
+</body>
+</html>
+<script src="../js/public.js"></script>
+<script src="../js/index_top.js"></script>
+<script src="../js/furniture.js"></script>
+<script src="../js/sidebar.js"></script>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <script src="js/public.js"></script>
+    <script src="js/sidebar.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        .sideBar {
+            color: #FFFFFF;
+            width: 33px;
+            height: 100%;
+            position: fixed;
+            right: 0;
+            text-align: center;
+            font-size: 12px;
+            background-color: #262626;
+        }
+
+        .sideBar .li1 {
+            height: 56px;
+            line-height: 28px;
+            margin-top: 90px;
+        }
+
+        .sideBar .li2 {
+            height: 141px;
+            color: #FEF3F8;
+            line-height: 28px;
+            margin-top: 1px;
+            margin-bottom: 4px;
+            background-color: #DF147F;
+        }
+
+        .sideBar .li3 {
+            height: 36px;
+            line-height: 36px;
+        }
+
+        .sideBar .li4 {
+            height: 36px;
+            margin-top: 156px;
+            line-height: 36px;
+        }
+
+        .sideBar .li5 {
+            height: 36px;
+            line-height: 36px;
+        }
+
+        .sideBar li {
+            position: relative;
+            cursor: pointer;
+        }
+
+        /*li:hover {*/
+            /*background-color: #E4157F;*/
+        /*}*/
+
+        .sideBar .zero {
+            border-radius: 50%;
+            background-color: #fff;
+            color: #E4157F;
+            width: 12px;
+            height: 12px;
+        }
+
+        .sideBar .hide1 {
+            width: 274px;
+            height: 304px;
+            border-left: 1px solid #DDDDDD;
+            border-top: 1px solid #DDDDDD;
+            border-bottom: 1px solid #DDDDDD;
+            border-radius: 2px;
+            position: absolute;
+            top: 0px;
+            right: -275px;
+            z-index: -999;
+        }
+
+        .sideBar .hide2 {
+            width: 116px;
+            height: 34px;
+            line-height: 34px;
+            text-align: center;
+            border-left: 1px solid #DDDDDD;
+            border-top: 1px solid #DDDDDD;
+            border-bottom: 1px solid #DDDDDD;
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            z-index: -999;
+            right: -117px;
+            color: #333333;
+            border-radius: 2px;
+            background-color: #FFFFFF;
+        }
+
+        .sideBar .hide1-t {
+            height: 150px;
+            color: #333333;
+            position: relative;
+            background-color: #fff;
+        }
+
+        .sideBar .hide1-t img {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border: 1px solid #DBDBEA;
+        }
+
+        .sideBar .hide1-t a {
+            color: #F32D96;
+        }
+
+        .sideBar .hide1-t span {
+            position: absolute;
+            top: 15px;
+            font-size: 20px;
+            color: #817D7D;
+            right: 20px;
+        }
+
+        .sideBar .hide1-m {
+            font-size: 16px;
+            padding-top: 24px;
+            height: 84px;
+            background-color: #F8F8F8;
+            border-top: 1px solid #E5E5E5;
+            border-bottom: 1px solid #E5E5E5;
+        }
+
+        .sideBar .hide1-b {
+            height: 43px;
+            color: #81C9E3;
+            padding-right: 26px;
+            padding-top: 1px;
+            background-color: #fff;
+        }
+
+        .sideBar .hide1-m1 {
+            width: 136px;
+            height: 76px;
+            border-right: 1px solid #E5E5E5;
+        }
+
+        .sideBar .hide1-m1 i {
+            color: #C4C4C4;
+        }
+
+        .sideBar .hide1-m1 p {
+            color: #424242;
+        }
+
+        .sideBar .hide1-m2 {
+            margin-right: 44px;
+        }
+
+        .sideBar .hide1-m2 i {
+            color: #C4C4C4;
+        }
+
+        .sideBar .hide1-m2 p {
+            color: #424242;
+        }
+    </style>
+</head>
+<body>
+<div class="sideBar" id="sideBar">
+    <ul>
+        <li class="li1" id="li1"><i class="iconfont" style="display: block;font-size: 18px">&#xe66b;</i>
+            <div class="hide1" id="hide1">
+                <div class="hide1-t">
+                    <img src="images/cute.jpg" alt=""/>
+
+                    <p>您好！请<a href="#">登录</a> | <a href="#">注册</a></p>
+                    <span>x</span>
+                </div>
+                <div class="hide1-m">
+                    <div class="hide1-m1 fl">
+                        <i class="iconfont">&#xe657;</i>
+
+                        <p>我的订单</p>
+                    </div>
+                    <div class="hide1-m2 fr">
+                        <i class="iconfont">&#xe619;</i>
+
+                        <p>我的订单</p>
+                    </div>
+
+                </div>
+                <div class="hide1-b">
+                    <b class="fr">会员俱乐部</b>
+                </div>
+            </div>
+            账号
+        </li>
+        <li class="li2" id="li2">
+            <i class="iconfont" style="display: block;font-size: 18px">
+            &#xe617;</i>购<br/>物<br/>袋<br/><b class="zero">&nbsp;0&nbsp;</b>
+        </li>
+        <li class="li3" id="li3"><i class="iconfont" style="display: block;font-size: 18px">&#xe625;</i>
+            <div class="hide2">我的优惠券</div>
+        </li>
+        <li class="li3" id="li4"><div class="hide2">我收藏的品牌</div><i class="iconfont" style="display: block;font-size: 18px">&#xe502;</i>
+
+
+        </li>
+        <li class="li3" id="li5"><i class="iconfont" style="display: block;font-size: 18px">&#xe605;</i>
+
+            <div class="hide2">我收藏的商品</div>
+        </li>
+        <li class="li3" id="li6"><i class="iconfont" style="display: block;font-size: 18px">&#xe6d2;</i>
+
+            <div class="hide2">我的足迹</div>
+        </li>
+        <li class="li4" id="li7"><i class="iconfont" style="display: block;font-size: 18px">&#xe603;</i>
+
+            <div class="hide2">会员反馈</div>
+        </li>
+        <li class="li5" id="li8"><i class="iconfont" style="display: block;font-size: 18px">&#xe66c;</i>
+
+            <div class="hide2">返回顶部</div>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

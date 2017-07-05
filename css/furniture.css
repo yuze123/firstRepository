@@ -1,0 +1,807 @@
+.banner a {
+    width: 100%;
+    height: 360px;
+    /*position: absolute;*/
+    /*z-index: -100;*/
+    background: url(../images/banner.jpg) no-repeat center center;
+    display: block;
+}
+/*顶部导航开始*/
+.top-nav {
+    background: #F5F5F5;
+    height: 28px;
+    line-height: 28px;
+}
+.top-nav-left-block {
+    height: 28px;
+    padding: 0 15px;
+    width: 57px;
+    position: relative;
+    cursor: pointer;
+}
+
+.zz-iconfont {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+.box .arr-border{
+    width: 87px;
+}
+
+.top-nav-left-none .box {
+    padding: 10px 20px 0 20px;
+    width: 257px;
+}
+.top-nav-left-none .box th {
+    width: 30px;
+}
+.top-nav-left-none .box td a {
+    padding: 0 3px;
+}
+.top-nav-left-none .box p {
+    font: 900 12px "simsun";
+    height: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.top-nav-right li{
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+.top-nav-right .line {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 10px;
+    padding: 0;
+}
+.top-nav-right .line-width{
+    padding-right: 25px;
+}
+.top-nav-right .tel {
+    background: url("../images/header.png") no-repeat
+    -100px -150px;
+    width: 10px;
+    height: 14px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+/*顶部导航结束*/
+/*顶部隐藏部分开始*/
+.line-width .shoucang {
+
+    padding: 10px 10px 15px 20px;
+
+}
+.line-width .shoucang .arr-border {
+    width: 88px;
+}
+.line-width .shoucang a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+}
+.login {
+    width: 260px;
+    padding: 20px;
+}
+.login .arr-border {
+    width: 66px;
+}
+.box-top .login-tu {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/header.png") no-repeat
+    0 -185px;
+    vertical-align: middle;
+}
+.box-top a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 180px;
+    padding-left: 10px;
+    border-bottom: 1px dotted #ccc;
+
+}
+.box-bottom {
+    margin-top: 10px;
+}
+.box-bottom a {
+    float: left;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+}
+.lucky .arr-border {
+    width: 100px;
+}
+.lucky {
+    width: 100px;
+}
+.lucky a {
+    display: block;
+    padding: 10px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.help  {
+    width: 88px;
+}
+.help .arr-border {
+    width: 88px;
+}
+.help a {
+    display: block;
+    padding: 10px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.ewm .arr-border {
+    width: 76px;
+    left: 105px;
+}
+.join {
+    width: 240px;
+    padding: 15px;
+    line-height: 30px;
+    left: -208px;
+}
+.join a {
+    margin-right: 5px;
+
+}
+.join h5 {
+    font: 700 14px 'microsoft yahei'
+}
+.join .join-top {
+    width: 240px;
+    height: 60px;
+    border-bottom: 1px dotted #c0c0c0;
+    margin-bottom: 10px;
+}
+.join .arr-border {
+    width: 63px;
+    left: 207px;
+}
+/*顶部隐藏部分*/
+/*LOGO部分开始*/
+.top-logo {
+    position: relative;
+
+    height: 100px;
+}
+.top-logo .logo {
+    width: 125px;
+    height: 50px;
+    background: url("../images/header.png") no-repeat
+    -175px 0;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    text-indent: -9999px
+}
+.top-logo .icon {
+    position: absolute;
+    right: 150px;
+    top: 30px;
+}
+.top-logo .icon1,.icon2,.icon3 {
+    width: 110px;
+    height: 40px;
+    padding: 0 10px;
+    background: url("../images/header.png") no-repeat
+    -150px -55px;
+    float: left;
+}
+.top-logo .icon2 {
+    background: url("../images/header.png") no-repeat
+    -150px -105px;
+}
+.top-logo .icon3 {
+    width: 115px;
+    background: url("../images/header.png") no-repeat
+    -150px -155px;
+}
+.top-logo-buy {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 136px;
+    height: 54px;
+    line-height: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.top-logo-buy-blcok .car {
+    float: left;
+    width: 14px;
+    height: 21px;
+    background: url("../images/header.png") no-repeat
+    0 -59px;
+    margin-right: 20px;
+}
+.top-logo-buy-blcok .number {
+    position: absolute;
+    top: 2px;
+    right: 115px;
+    background: #F10180;
+    width: 24px;
+    height: 16px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+.top-logo-buy-blcok .number b {
+    color: #fff;
+}
+/*LOGO部分结束*/
+
+/*中间主要导航部分开始*/
+.main-nav {
+    height: 40px;
+    background: #F10180;
+    position: relative;
+}
+.main-nav li {
+    float: left;
+    position: relative;
+}
+.main-nav li a {
+    display: block;
+    height: 40px;
+    padding: 0 14px;
+    font: 500 16px/40px "microsoft yahei";
+    color: #ffffff;
+}
+.main-nav .more {
+    padding-right: 20px;
+}
+.main-nav .more .zz-iconfont {
+    right: 0;
+}
+.main-nav .bgc:hover {
+    background-color: #db0a76;
+}
+.main-nav .current {
+    background-color: #db0a76;
+}
+.main-nav .notice,.main-nav .classify {
+    float: right;
+}
+.main-nav .notice a,.main-nav .classify a{
+    padding: 0 20px;
+}
+.main-nav .notice img ,.main-nav .classify img {
+    margin-right: 6px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+.very-more-box {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    padding:26px 10px 11px 26px;
+    z-index: 10;
+    width: 575px;
+    height: 225px;
+    z-index: 5;
+    background: #ffffff;
+    display: none;
+}
+
+.very-more .very-more-box a {
+    width: 170px;
+    float: left;
+    height: 95px;
+    padding: 10px 0 0 10px;
+    margin: 0 10px 10px 0;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.very-more-box img {
+    border-radius: 10px;
+}
+.very-more-box .show-down p{
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 170px;
+    z-index: 6;
+}
+.very-more-box .shadow {
+    position: absolute;
+    top: 45px;
+    width: 170px;
+    height: 96px;
+    z-index: 5;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.9) 100%);
+
+}
+/*中间主要导航部分结束*/
+
+.rm {
+    text-align: center;
+    margin-top: 40px;
+    height: 106px;
+    position: relative;
+}
+
+.rm .remen{
+    font-size: 28px;
+}
+.rm .fenlie{
+    font-size: 28px;
+    font-weight:bold;
+}
+
+.rm .line {
+    width: 108px;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+.rm .l{
+    position: absolute;
+    right: 310px;
+    top: 10px;
+}
+.rm .r{
+    position: absolute;
+    left: 310px;
+    top: 10px;
+}
+.rm .hot{
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-top: 10px;
+}
+/*rm e*/
+/*box b*/
+.box{
+    width: 1028px;
+    height: 304px;
+    border: 1px solid #E8EBE4;
+}
+.box .left{
+    width: 143px;
+}
+.box .left li{
+    height: 51px;
+    background-color: #F4F4F4;
+    text-align: center;
+    line-height: 51px;
+    font-family: "SimSun", "宋体";
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+.box .top-b{
+    border-bottom:1px solid #FFFFFF;
+}
+.box .right{
+    position: relative;
+    width: 885px;
+    height: 304px;
+    /*background-color: red;*/
+    overflow: hidden;
+    cursor: pointer;
+}
+.box .right ul{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.box .right li{
+    width: 885px;
+    height: 304px;
+    /*background: url(../images/jiafang.jpg) no-repeat center center;*/
+}
+.box .right li.a{
+    background: url(../images/jiafang.jpg) no-repeat center center;
+
+}
+.box .right li.b{
+    background: url(../images/jiajubaihuo.jpg) no-repeat center center;
+
+}
+.box .right li.c{
+    background: url(../images/xiaojiadian.jpg) no-repeat center center;
+
+}
+.box .right li.d{
+    background: url(../images/3c.jpg) no-repeat center center;
+
+}
+.box .right li.e{
+    background: url(../images/dajiadian.jpg) no-repeat center center;
+
+}
+.box .right li.f{
+    background: url(../images/jiajujiazhuang.jpg) no-repeat center center;
+
+}
+
+.box .left.liBefore{
+    height: 51px;
+    background-color: #F4F4F4;
+    text-align: center;
+    line-height: 51px;
+    font-family: "SimSun", "宋体";
+    font-size: 14px;
+}
+.box .left .liAfter{
+    background-color: #FFFFFF;
+    font: bold 14px/51px SimSun;
+    color: #E9AF46;
+}
+
+.box .left li span{
+    position: absolute;
+    left: 105px;
+    top: 0px;
+    display: block;
+}
+
+/*box e*/
+/*muma b*/
+.gexing{
+    width: 710px;
+    height: 140px;
+    background: url(../images/gexing.jpg) no-repeat center center;
+    margin: 0 auto;
+}
+.wrap{
+    width:800px;
+    margin:10px auto;
+    height: 500px;
+}
+.slide {
+    height:300px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left:125px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+    display: inline-block;
+}
+.prev,.next{
+    width:60px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    margin-top:0px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
+/*zlyb b*/
+.zlyb-xtm{
+    position: relative;
+    margin: 20px 0;
+}
+.zailai{
+    width: 710px;
+    height: 140px;
+    background: url(../images/zailaiyibo.jpg) no-repeat center center;
+    margin: 0 auto;
+}
+.zlyb .zlyb-xintemai{
+    font-size: 28px;
+    margin-left: 338px;
+}
+.zlyb .zlyb-shangxin{
+    font-size: 28px;
+    font-weight:bold;
+}
+.zlyb .line{
+    width: 108px;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+.zlyb .l{
+    position: absolute;
+    left: 198px;
+    bottom: 12px;
+}
+.zlyb .r{
+    /*margin-left: 200px;*/
+    position: absolute;
+    left: 680px;
+    bottom: 12px;
+}
+
+.zlyb .fc{
+    width:1100px;
+    margin: 0 auto;
+}
+.zlyb ul li{
+    width: 490px;
+    height: 280px;
+    position: relative;
+    border: 1px solid #E9E7EA;
+    margin: 15px 25px;
+    float: left;
+    /*margin-right: 10px;*/
+}
+.zlyb ul .tm{
+    width: 490px;
+    height: 25px;
+    background-color: rgba(42, 29, 21, .5);
+    position:absolute;
+    left: 0px;
+    bottom: 45px;
+}
+.zlyb ul .logo{
+    width:6px;
+    height: 6px;
+    background-color: #F0B148;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+}
+.zlyb ul i{
+    border-width:3px 3px 3px 3px ;
+    border-color: #F0B148 #F0B148 rgba(42, 29, 21, .5) #F0B148;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    border-style:solid;
+}
+
+
+.zlyb ul .tm .fengding{
+    color:#ffffff;
+    margin-left: 16px;
+}
+.zlyb .num{
+    font:bold 18px/40px "宋体";
+    color: #F43499;
+}
+.zlyb .li-bot{
+    position: relative;
+}
+.zlyb .title{
+    color:#291C14;
+    position: absolute;
+    left: 83px;
+    top: 14px;
+    font: bold 14px/14px "宋体";
+}
+.zlyb .sharpKill{
+    width: 100px;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #EA6EAF;
+    text-align: center;
+    font:bold 14px/24px "simsun";
+    color:#FFFFFF;
+}
+.topFix{
+    height: 35px;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.4);
+    background-color: #FFFFFF;
+    position: fixed;
+    left: 0px;
+    top: -45px;
+    display: block;
+}
+.topFix .jujia{
+    width: 100px;
+    height: 45px;
+    background: url(../images/jujia.png) no-repeat 0px 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.topFix .topLis{
+    position: absolute;
+    left: 100px;
+    float: left;
+}
+
+.topFix .topLis a{
+    display: block;
+    float: left;
+    margin-left: 50px;
+    font: normal 14px/25px "simsun";
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    margin-top: 5px;
+}
+.topFix .topLis a:hover{
+    border-radius: 12px;
+    background-color: #ff2323;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+/*sideBar部分开始*/
+.sideBar {
+    color: #FFFFFF;
+    width: 33px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #262626;
+    z-index: 10;
+}
+
+.sideBar li {
+    position: relative;
+    cursor: pointer;
+}
+
+.sideBar .li1 {
+    height: 56px;
+    line-height: 28px;
+    margin-top: 90px;
+}
+
+.sideBar .li2 {
+    height: 141px;
+    color: #FEF3F8;
+    line-height: 28px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+    background-color: #DF147F;
+}
+
+.sideBar .li3 {
+    height: 36px;
+    line-height: 36px;
+}
+
+.sideBar .li4 {
+    height: 36px;
+    line-height: 36px;
+}
+
+.sideBar .li5 {
+    height: 36px;
+    line-height: 36px;
+    top: 100px;
+    right: 0;
+}
+
+.sideBar .zero {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #E4157F;
+    width: 12px;
+    height: 12px;
+}
+
+.sideBar .hide1 {
+    width: 274px;
+    height: 304px;
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 2px;
+    position: absolute;
+    top: 0px;
+    right: -275px;
+    z-index: -999;
+}
+
+.sideBar .hide2 {
+    width: 116px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    z-index: -999;
+    right: -117px;
+    color: #333333;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
+
+.sideBar .hide1-t {
+    height: 150px;
+    color: #333333;
+    position: relative;
+    background-color: #fff;
+}
+
+.sideBar .hide1-t img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #DBDBEA;
+}
+
+.sideBar .hide1-t a {
+    color: #F32D96;
+}
+
+.sideBar .hide1-t span {
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    color: #817D7D;
+    right: 20px;
+}
+
+.sideBar .hide1-m {
+    font-size: 16px;
+    padding-top: 24px;
+    height: 84px;
+    background-color: #F8F8F8;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.sideBar .hide1-b {
+    height: 43px;
+    color: #81C9E3;
+    padding-right: 26px;
+    padding-top: 1px;
+    background-color: #fff;
+}
+
+.sideBar .hide1-m1 {
+    width: 136px;
+    height: 76px;
+    border-right: 1px solid #E5E5E5;
+}
+
+.sideBar .hide1-m1 i {
+    color: #C4C4C4;
+}
+
+.sideBar .hide1-m1 p {
+    color: #424242;
+}
+
+.sideBar .hide1-m2 {
+    margin-right: 44px;
+}
+
+.sideBar .hide1-m2 i {
+    color: #C4C4C4;
+}
+
+.sideBar .hide1-m2 p {
+    color: #424242;
+}
+/*sideBar部分结束*/
+

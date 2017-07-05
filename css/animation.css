@@ -1,0 +1,301 @@
+/*动画upanddown*/
+/*.upAndDown:hover {
+    -webkit-animation: upAndDown .8s linear infinite;
+    -o-animation: upAndDown .8s linear infinite;
+    animation: upAndDown .8s linear infinite;
+}*/
+
+	/*@keyframes upAndDown {}*/
+
+/*	@keyframes upAndDown {
+	    0%, 100% {
+	        margin-top: 0;
+	    }
+	    25%, 75% {
+	        margin-top: -20px;
+	    }
+	    50% {
+	        margin-top: -40px;
+	    }
+	}
+
+	@-webkit-keyframes upAndDown {
+	    0%, 100% {
+	        margin-top: 0;
+	    }
+	    25%, 75% {
+	        margin-top: -20px;
+	    }
+	    50% {
+	        margin-top: -40px;
+	    }
+	}
+
+	@-moz-keyframes upAndDown {
+	    0%, 100% {
+	        margin-top: 0;
+	    }
+	    25%, 75% {
+	        margin-top: -20px;
+	    }
+	    50% {
+	        margin-top: -40px;
+	    }
+	}
+
+	@-o-keyframes upAndDown {
+	    0%, 100% {
+	        margin-top: 0;
+	    }
+	    25%, 75% {
+	        margin-top: -20px;
+	    }
+	    50% {
+	        margin-top: -40px;
+	    }
+	}*/
+
+/*动画：hover显示详细信息*/
+.cover {
+	position: relative;
+}
+.info {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/*display: none;*/
+}
+.cover:hover .info {
+	-webkit-animation: infoShowUp .5s forwards;
+	-o-animation: infoShowUp .5s forwards;
+	animation: infoShowUp .5s forwards;
+}
+
+	/*@keyframes infoShowUp {}*/
+	@keyframes infoShowUp {
+		0% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+		/*display: none;*/
+		}
+		100% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		/*display: block;*/
+		}
+	}
+
+	@-webkit-keyframes infoShowUp {
+		0% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+		/*display: none;*/
+		}
+		100% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		/*display: block;*/
+		}
+	}
+
+	@-moz-keyframes infoShowUp {
+		0% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+		/*display: none;*/
+		}
+		100% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		/*display: block;*/
+		}
+	}
+
+	@-o-keyframes infoShowUp {
+		0% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+		/*display: none;*/
+		}
+		100% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		/*display: block;*/
+		}
+	}
+
+
+/*动画：hover元素向上移动
+/*.toUp:hover {
+	-webkit-animation: toUp .2s forwards;
+	-o-animation: toUp .2s forwards;
+	animation: toUp .2s forwards;
+}*/
+
+	/*@keyframes toUp {}*/
+/*	@keyframes toUp {
+		0%{
+			margin-top: 0;
+		}
+		100%{
+			margin-top: -10px;
+		}
+	}
+
+	@-moz-keyframes toUp {
+		0%{
+			margin-top: 0;
+		}
+		100%{
+			margin-top: -10px;
+		}
+	}
+
+	@-webkit-keyframes toUp {
+		0%{
+			margin-top: 0;
+		}
+		100%{
+			margin-top: -10px;
+		}
+	}
+
+	@-o-keyframes toUp {
+		0%{
+			margin-top: 0;
+		}
+		100%{
+			margin-top: -10px;
+		}
+	}*/
+
+
+/*动画：hover元素向左移动*/
+/*.toLeft:hover {
+	-webkit-animation: toLeft .2s forwards;
+	-o-animation: toLeft .2s forwards;
+	animation: toLeft .2s forwards;
+}*/
+
+
+	/*@keyframes toLeft {}*/
+
+/*	@keyframes toLeft {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: -10px;
+		}
+	}
+
+	@-webkit-keyframes toLeft {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: -10px;
+		}
+	}
+
+	@-moz-keyframes toLeft {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: -10px;
+		}
+	}
+
+	@-o-keyframes toLeft {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: -10px;
+		}
+	}
+*/
+
+/*动画：hover元素向右移动*/
+/*.toRight:hover {
+	-webkit-animation: toRight .2s forwards;
+	-o-animation: toRight .2s forwards;
+	animation: toRight .2s forwards;
+}*/
+
+	/*@keyframes toRight {}*/
+/*	@keyframes toRight {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: 10px;
+		}
+	}
+
+	@-webkit-keyframes toRight {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: 10px;
+		}
+	}
+
+	@-moz-keyframes toRight {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: 10px;
+		}
+	}
+
+	@-o-keyframes toRight {
+		0% {
+			margin-left: 0;
+		}
+		100% {
+			margin-left: 10px;
+		}
+	}*/
+
+/*动画：hover元素高亮（实际上改变的是元素的透明度）*/
+.toLightup {
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+	}
+	.toLightup:hover {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+
+/*动画：hover给元素添加边框*/
+.showBorder:hover {
+	height: 273px !important;
+	width: 488px !important;
+	overflow: hidden;
+	border: 1px solid #ed008c;
+}
+
+/*动画：hover内图片放大，外盒子添加盒子阴影*/
+.toBiger {
+	overflow: hidden;
+}
+	/*.toBiger img {
+		width: 100%;
+		height: 100%;
+	}*/
+	.toBiger:hover {
+		box-shadow: 2px 2px 1px 1px rgba(0,0,0,.3);
+	}
+		.toBiger:hover img {
+			width: 500px;
+			height: 245px;
+			margin-top: -5px;
+			margin-left: -5px;
+		}

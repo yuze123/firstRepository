@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/*注册页面的css样式*/
+
+
+
+
+
+/*<!--top B-->*/
+body{
+    background-color: #FDFBFE;
+}
+
+.top{
+    padding: 45px 0;
+}
+/*<!--top E-->*/
+
+/*content B*/
+.commet{
+    height: 450px;
+    overflow: hidden;
+}
+.commet_l{
+    width: 600px;
+    height: 500px;
+    /*border: 1px solid #E60F87;*/
+}
+.commet_l img{
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+.commet_r{
+    width: 290px;
+    height: 374px;
+    font-size: 14px;
+    /*border: 1px solid #E60F87;*/
+}
+.commet_r_t{
+    margin: 10px auto;
+    /*border: 1px solid #000;*/
+}
+.commet_r_t .commet_r_t_a:hover{
+    text-decoration: underline;
+}
+.commet_r_c_t{
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+
+/*轮播图区域开始*/
+/*.commet .commet_l*/
+
+.commet .commet_l ul{
+    width: 2750px;
+    height: 350px;
+    position: absolute;
+    left:0;
+    /*z-index: 90;*/
+}
+.commet .commet_l li{
+    display: inline-block;
+    float: left;
+}
+.commet .commet_l .all01{
+    width:550px;
+    height:350px;
+    border:1px solid #ccc;
+    /*margin:100px auto;*/
+    position:relative;
+}
+.commet .commet_l .screen01{
+    width:550px;
+    height:350px;
+    overflow:hidden;
+    position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+/*轮播图区域结束*/
+
+
+
+
+
+/*手机号区域 开始*/
+.phonePassword_area{
+    width: 290px;
+    height: 330px;
+    padding: 0px 0px;
+    /*border: 3px dashed purple;*/
+}
+.phonePassword_area img{
+    display: none;
+}
+.phoneNumber{
+    padding-left: 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    width: 270px;
+}
+.phonePassword_area .phoneNumber:hover{
+    border: 1px solid #000;
+}
+.phonePassword_area input{
+    margin-top:5px;
+    font: 500 14px "微软雅黑";
+    color: #c0c0c0;
+    width: 240px;
+    background-color: #FDFBFE;
+}
+
+.phonePassword_area span{
+    padding-right: 10px;
+}
+.passwordfirst{
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+#passStrong1{
+    margin-top: 6px;
+}
+.duanXinYan{
+    margin-top: 24px;
+    width: 278px;
+    height: 33px;
+}
+.duanXinYan .duanXin01{
+    width: 130px;
+    height: 32px;
+    margin-top: 0;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+.duanXin02{
+    width: 120px;
+    height: 34px;
+    background-color: #D0D0D0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #999;
+}
+/*立即注册*/
+.liJiZ{
+    margin-top: 22px;
+    margin-bottom: 36px;
+}
+.liJiZ>button{
+    width: 142px;
+    height: 42px;
+    background-color: #F10180;
+    border-radius: 6px;
+    color: #fff;
+    font: 500 18px "微软雅黑";
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.yueDu a{
+    color: red;
+}
+#xiaoGou{
+    width: 19px;
+    height: 16px;
+    cursor: pointer;
+    background: url("../images/sprite01.png") no-repeat -24px 0px;
+    margin: 0 3px;
+}
+/*网页重定*/
+.liJiZ #wangyechongding{
+    display: inline-block;
+    width: 142px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+}
+/*手机号区域 结束*/
+/*底部B*/
+.bottom01{
+    text-align: center;
+    /*height: 200px;*/
+    /*line-height: 200px;*/
+}
+/*底部E*/

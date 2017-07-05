@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>唯品会-我的购物袋</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/shoppingCart.css"/>
+    <link rel="stylesheet" href="../css/shoppingContent.css"/>
+    <link rel="shortcut icon" href="../favicon.ico"/>
+    <script src="../js/public.js"></script>
+    <script src="../js/shoppingCart.js"></script>
+</head>
+<body>
+<span class="ensure-tel"><s></s></span>
+
+<div class="top">
+    <div class="w-shopping .fc">
+        <div class="logo fl"><h1><a href="../index.html" title="唯品会">唯品会</a></h1></div>
+        <div class="information fr ">
+            <ul>
+                <li>
+                    <a href="">登入</a>
+                    <a href="">注册</a>
+                </li>
+                <li id="list">订单管理</li>
+                <li class="lol">|</li>
+                <li><span class="link"></span>400-6789-888</li>
+                <li class="lol">|</li>
+                <li id="topLink"><span class="people"></span>在线客服</li>
+                <li class="lol">|</li>
+                <li id="topPeople">
+                    <span class="customer"></span>
+                    会员服务
+                    <span class="point1"><s class="font1">◇</s></span>
+
+                    <div id="topBox" class="topBox">
+                        <ul>
+                            <li style ="color: #000">
+                                <span class="customer"></span>
+                                会员服务
+                                <span class="point2"><s class="font2">◇</s></span></li>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">会员反馈</a></li>
+                            <li><a href="#">会员俱乐部</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="information-bottom">
+                <ul>
+                    <li><img src="../images/smoll0.png" alt=""/>100% 正品保证</li>
+                    <li><img src="../images/smoll1.png" alt=""/>七天无理由放心退</li>
+                    <li><img src="../images/smoll2.png" alt=""/>退货返运费</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="content w-shopping">
+    <div class="shopping-bag">
+        <div class=fc>
+            <div class="step-one fl">
+                <s></s>
+
+                <p class="font-colorBlack">查看购物袋</p>
+            </div>
+            <span class="shopping-bg1"></span>
+
+            <div class="step-two fl">
+                <s></s>确认订单信息
+            </div>
+            <span class="shopping-bg2"></span>
+
+            <div class="step-three fl">
+                <s></s>
+                成功提交订单
+            </div>
+        </div>
+        <div class="shopping-time">
+
+            <div class="bg fl"></div>
+            <div class=" list-time fl">请在<s class="timer1 col-red"><em id="min1">05</em>分<em id="ms1">00</em>秒</s>内提交订单,下单后你另有30分钟的支付时间。<span
+                    class="state"></span>
+
+                <div class="detailed1">
+                    <ul>
+                        <li>好商品需要精挑细选，特意为你留足20分钟考虑时间；</li>
+                        <li>超时后仍可尝试结算，没被人抢走的商品我们会帮你重新放入购物袋。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  <div class="shoppingList">
+         <ul>
+             <li>唯品自营</li>
+             <li>单价</li>
+             <li>数量</li>
+             <li>小计</li>
+         </ul>
+     </div> -->
+    <div class="commodity-list ws">
+        <div class="self-title">
+            <div class="little"></div>
+            <ul>
+                <li class=" self fl">唯品自营</li>
+                <li class="onePrice fl">单价</li>
+                <li class="number fl">数量</li>
+                <li class="sum fl">小计</li>
+                <li class="operation fl">操作</li>
+            </ul>
+        </div>
+        <div class="fruit">
+            <ul>
+                <li class="name">
+                    <img class="smallImg" src="../images/1889154-5_235x297_90.jpg" width="76px"/>
+                    <img class="bigImg" src="../images/1889154-5_235x297_90.jpg"/>
+
+                    <div class="miaoShu">
+                        <h4><a href="#">珍享水果专场 - 美国进口红蛇果*6个</a></h4>
+
+                        <p>尺码：均码</p>
+                    </div>
+                </li>
+                <li class="fruitPrice">
+                    <em>￥</em><s class="money">39</s><br/>
+                    <em>￥</em>
+                    <del>79</del>
+                </li>
+                <li class="fruitNum">
+                    <div class="box fc">
+                        <div class="left fl"></div>
+                        <div class="middle fl">1</div>
+                        <div class="right fl"></div>
+                    </div>
+                </li>
+                <li class="fruitSum">
+                    <em>￥</em><s class="Summoney">39</s><br/>
+                </li>
+                <li class="fruitOper">
+                    <div class="del">删除</div>
+                    <div class="delBox">
+                        <input class="btn1 " type="button" value="删除"/>
+                        <!--<input  id="btn2" type="button" value="先留着"/>-->
+                        <input class="btn2" type="button" value="先留着"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="fruit">
+            <ul>
+                <li class="name">
+                    <img class="smallImg" src="../images/1889156-5_235x297_90.jpg" width="76px"/>
+                    <img class="bigImg" src="../images/1889156-5_235x297_90.jpg"/>
+
+                    <div class="miaoShu">
+                        <h4><a href="#">珍享水果专场 - 泰国进口龙眼2斤</a></h4>
+
+                        <p>尺码：均码</p>
+                    </div>
+                </li>
+                <li class="fruitPrice">
+                    <em>￥</em><s class="money">59</s><br/>
+                    <em>￥</em>
+                    <del>89</del>
+                </li>
+                <li class="fruitNum">
+                    <div class="box fc">
+                        <div class="left fl"></div>
+                        <div class="middle fl">1</div>
+                        <div class="right fl"></div>
+                    </div>
+                </li>
+                <li class="fruitSum">
+                    <em>￥</em><s class="Summoney">59</s><br/>
+                </li>
+                <li class="fruitOper">
+                    <div class="del">删除</div>
+                    <div class="delBox">
+                        <input class="btn1 " type="button" value="删除"/>
+                        <!--<input  id="btn2" type="button" value="先留着"/>-->
+                        <input class="btn2" type="button" value="先留着"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="fruit">
+            <ul>
+                <li class="name">
+                    <img class="smallImg" src="../images/1889160-5_235x297_90.jpg" width="76px"/>
+                    <img class="bigImg" src="../images/1889160-5_235x297_90.jpg"/>
+
+                    <div class="miaoShu">
+                        <h4><a href="#">珍享水果专场 - 美国新奇士橙6个</a></h4>
+
+                        <p>尺码：均码</p>
+                    </div>
+                </li>
+                <li class="fruitPrice">
+                    <em>￥</em><s class="money">49</s><br/>
+                    <em>￥</em>
+                    <del>69</del>
+                </li>
+                <li class="fruitNum">
+                    <div class="box fc">
+                        <div class="left fl"></div>
+                        <div class="middle fl">1</div>
+                        <div class="right fl"></div>
+                    </div>
+                </li>
+                <li class="fruitSum">
+                    <em>￥</em><s class="Summoney">49</s><br/>
+                </li>
+                <li class="fruitOper">
+                    <div class="del">删除</div>
+                    <div class="delBox">
+                        <input class="btn1 " type="button" value="删除"/>
+                        <!--<input  id="btn2" type="button" value="先留着"/>-->
+                        <input class="btn2" type="button" value="先留着"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="fruit">
+            <ul>
+                <li class="name">
+                    <img class="smallImg" src="../images/1889162-5_235x297_90.jpg" width="76px"/>
+                    <img class="bigImg" src="../images/1889162-5_235x297_90.jpg"/>
+
+                    <div class="miaoShu">
+                        <h4><a href="#">珍享水果专场 - 意大利奇异果绿果12个</a></h4>
+
+                        <p>尺码：均码</p>
+                    </div>
+                </li>
+                <li class="fruitPrice">
+                    <em>￥</em><s class="money">59</s><br/>
+                    <em>￥</em>
+                    <del>69</del>
+                </li>
+                <li class="fruitNum">
+                    <div class="box fc">
+                        <div class="left  fl"></div>
+                        <div class="middle fl">1</div>
+                        <div class="right fl"></div>
+                    </div>
+                </li>
+                <li class="fruitSum">
+                    <em>￥</em><s class="Summoney">59</s><br/>
+                </li>
+                <li class="fruitOper">
+                    <div class="del">删除</div>
+                    <div class="delBox">
+                        <input class="btn1 " type="button" value="删除"/>
+                        <!--<input  id="btn2" type="button" value="先留着"/>-->
+                        <input class="btn2" type="button" value="先留着"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="account w-shopping">
+    <div class="account-top">
+        <div class="pre">使用优惠券</div>
+        <div class="preWord">使用优惠券口令</div>
+        <div class="priceSum fc">
+            <ul>
+                <li>共<s id="shoppingNumber">1</s>件商品 商品金额</li>
+                <li><em class="col-black">¥</em><s id="price">95</s></li>
+            </ul>
+            <ul>
+                <li>总金额（已免运费）</li>
+                <li class="col-red"><em>¥</em><s id="sumPrice">95</s></li>
+            </ul>
+        </div>
+    </div>
+    <div class="account-bottom">
+        <div class="detailed">
+            <ul>
+                <li>好商品需要精挑细选，特意为你留足20分钟考虑时间；</li>
+                <li>超时后仍可尝试结算，没被人抢走的商品我们会帮你重新放入购物袋。</li>
+            </ul>
+        </div>
+        <div class="describe fl">请在倒计时结束前结算 <span class="state"></span></div>
+        <div class="sumPrice fl"><a href="../index.html">立即结算</a><span class="timer"><em id="min2">05</em>:<em id="ms2">00</em></span></div>
+    </div>
+</div>
+
+<div class="w-shopping">
+    <div class="ensure">
+        <div class="w-shopping ensure-content">
+            <div class="ensure-bg1 fl"></div>
+            <div class="ensure-bg2 fl"></div>
+            <div class="ensure-bg3 fl"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="about fc">
+            <ul>
+                <li>关于我们 <span></span></li>
+                <li>About us<span></span></li>
+                <li>Investor Relations<span></span></li>
+                <li>媒体报道<span></span></li>
+                <li>品牌招商<span></span></li>
+                <li>隐私条款<span></span></li>
+                <li>唯品诚聘<span></span></li>
+                <li>365爱心基金<span></span></li>
+                <li>唯品卡<span></span></li>
+                <li>唯品地图<span></span></li>
+                <li>品牌大全<span></span></li>
+                <li>联系我们</li>
+            </ul>
+        </div>
+        <div class="copyRight">
+            <span>Copyright © 2008-2017 vip.com，All Rights Reserved 使用本网站即表示接受 </span>
+            <a href="#">唯品会用户协议</a>
+            <span>。版权所有</span>
+            <a href="">广州唯品会信息科技有限公司</a><br/>
+            <a href="">粤公网安备 44010302111111号</a>
+            <a href="">粤ICP备08114786号</a>
+            <a href="">ICP经营许可证：粤B2-20080329</a>
+            <a href="">网络文化经营许可证：粤网文〔2015〕1528-229</a> <br/>
+            <a href="">自营主体的营业执照及食品流通许可证信息</a>
+            <a href="">互联网药品交易服务资格证（粤C20140002）</a>
+        </div>
+        <div class="licence fc">
+            <ul>
+                <li class="licence-bg1"></li>
+                <li class="licence-bg2"></li>
+                <li class="licence-bg3"></li>
+                <li class="licence-bg4"></li>
+                <li class="licence-bg5"></li>
+                <li class="licence-bg6"></li>
+                <li class="licence-bg7"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
